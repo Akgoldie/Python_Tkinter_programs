@@ -1,0 +1,12 @@
+from tkinter import *
+obj=Tk()
+obj.geometry("500x500")
+button=Button(obj,text="Arun Kumar")
+button.pack()
+button1=Button(obj,text="Arun Kumar")
+button1.pack(side="bottom")
+button2=Button(obj,text="Arun Kumar")
+button2.pack(side="left")
+button3=Button(obj,text="Arun Kumar")
+button3.pack(side="right")
+obj.mainloop()
